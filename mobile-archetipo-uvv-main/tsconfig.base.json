@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "jsx": "react-native"
+    },
+    "include": ["src/**/*", "node_modules/expo/types"]
+  }
+  
